@@ -1,0 +1,11 @@
+version: "2"
+services:
+  email-sender-php:
+    container_name: "email-sender-php"
+    image: "email-sender-php:1.0"
+    build:
+      context: .
+      dockerfile: ./app/Dockerfile
+    ports:
+      - "80:80"
+    restart: unless-stopped

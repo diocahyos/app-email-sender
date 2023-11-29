@@ -1,0 +1,6 @@
+{
+    "name": "app-email-sender/app",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
